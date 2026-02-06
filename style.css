@@ -458,3 +458,40 @@ header nav ul li {
   border: 1px solid #b4b5b5;
   border-radius: 20px;
 }
+
+.logos ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.footer-list div{
+  width: 191px;
+  height: 225px;
+}
+.footer-list ul{
+  list-style: none;
+  color: var(--button-text-black);
+
+}
+.footer-list ul li{
+  margin: 20px 0px ;
+}
+
+
+/* this is how we can give the property to each child except first */
+.footer-list ul li:not(:first-child){
+  color: var(--button-text-black);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-btn{
+  color: var(--button-text-black);
+  background-color: var(--color-bg-button);
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+  gap:4px;
+  border-radius: 20px;
+
+}
