@@ -51,6 +51,7 @@ header nav ul {
 }
 header nav ul li {
   font-weight: 600;
+  cursor: pointer;
 }
 .main-container {
   background-image: url(assets/bg-light.svg);
