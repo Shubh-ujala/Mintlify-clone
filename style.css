@@ -80,6 +80,7 @@ header nav ul li {
   height: 33px;
   font-size: 15px;
   text-align: center;
+  cursor: pointer;
 }
 
 .start-btn {
@@ -92,6 +93,7 @@ header nav ul li {
   height: 33px;
   font-size: 15px;
   text-align: center;
+  cursor: pointer;
 }
 
 .hero-section {
@@ -464,6 +466,7 @@ header nav ul li {
   list-style: none;
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 .footer-list div{
   width: 191px;
@@ -476,6 +479,7 @@ header nav ul li {
 }
 .footer-list ul li{
   margin: 20px 0px ;
+  cursor: pointer;
 }
 
 
@@ -494,5 +498,5 @@ header nav ul li {
   align-items: center;
   gap:4px;
   border-radius: 20px;
-
+ /* cursor: pointer; */
 }
